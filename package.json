@@ -10,7 +10,7 @@
     "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
     "prod": "npm run production",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "publish-and-tag": "git push --tags && git push origin master",
+    "publish-and-tag": "git push --tags && git push origin main",
     "version:patch": "npm version patch && npm run publish-and-tag",
     "version:minor": "npm version minor && npm run publish-and-tag",
     "version:marjor": "npm version major && npm run publish-and-tag"
