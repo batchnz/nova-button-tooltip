@@ -9,9 +9,15 @@
     "require": {
         "php": ">=7.1.0"
     },
+    "authors": [
+      {
+        "name": "Matthias Law",
+        "email": "matthias@batch.nz"
+      }
+    ],
     "autoload": {
         "psr-4": {
-            "Batch\\Tooltip\\": "src/"
+            "Batch\\ButtonTooltip\\": "src/"
         }
     },
     "extra": {
