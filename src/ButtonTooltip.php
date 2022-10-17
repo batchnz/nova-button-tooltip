@@ -11,7 +11,7 @@ class ButtonTooltip extends Field
      *
      * @var string
      */
-    public $component = 'button-tooltips';
+    public $component = 'button-tooltip';
 
     public $showOnCreation = false;
     public $showOnUpdate = false;
