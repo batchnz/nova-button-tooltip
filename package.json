@@ -13,7 +13,7 @@
     "publish-and-tag": "git push --tags && git push origin main",
     "version:patch": "npm version patch && npm run publish-and-tag",
     "version:minor": "npm version minor && npm run publish-and-tag",
-    "version:marjor": "npm version major && npm run publish-and-tag"
+    "version:marjor": "npm version major && npm run publish-and-tag",
     "nova:install": "npm --prefix='../../vendor/laravel/nova' ci"
   },
   "devDependencies": {
