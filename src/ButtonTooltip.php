@@ -18,6 +18,6 @@ class ButtonTooltip extends Field
 
     public function buttons($buttons)
     {
-        return $this->withMeta(['buttons' => $buttons]);
+      return $this->withMeta(['buttons' => $buttons]);
     }
 }

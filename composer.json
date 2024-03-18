@@ -1,20 +1,15 @@
 {
     "name": "batchnz/nova-button-tooltip",
-    "description": "A Laravel Nova Button Tooltip.",
+    "version": "2.0.0",
+    "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
         "nova"
     ],
     "license": "MIT",
     "require": {
-        "php": ">=7.1.0"
+        "php": "^7.3|^8.0"
     },
-    "authors": [
-      {
-        "name": "Matthias Law",
-        "email": "matthias@batch.nz"
-      }
-    ],
     "autoload": {
         "psr-4": {
             "Batch\\ButtonTooltip\\": "src/"
