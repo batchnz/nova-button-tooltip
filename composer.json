@@ -1,6 +1,6 @@
 {
     "name": "batchnz/nova-button-tooltip",
-    "version": "2.0.4",
+    "version": "2.0.5",
     "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
