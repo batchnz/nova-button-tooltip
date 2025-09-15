@@ -20,4 +20,9 @@ class ButtonTooltip extends Field
     {
       return $this->withMeta(['buttons' => $buttons]);
     }
+
+    public function modalConfig($config)
+    {
+      return $this->withMeta(['modalConfig' => $config]);
+    }
 }
