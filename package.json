@@ -1,6 +1,6 @@
 {
   "name": "batchnz/nova-button-tooltip",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "private": true,
   "scripts": {
     "dev": "npm run development",
